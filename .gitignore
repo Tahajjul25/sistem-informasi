@@ -1,0 +1,23 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Arsip versi lama
+_arsip_lama/
+
+# Logs
+*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Cache
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/

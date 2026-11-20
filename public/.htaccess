@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Jika file atau folder memang ada (CSS, JS, gambar), akses langsung.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Selain itu, arahkan semua ke index.php
+RewriteRule ^ index.php [QSA,L]

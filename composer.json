@@ -1,0 +1,20 @@
+{
+    "name": "jadwal-panen/aceh-utara",
+    "description": "Sistem Informasi Jadwal Tanam dan Panen Aceh Utara",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

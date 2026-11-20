@@ -1,0 +1,21 @@
+{
+  "name": "sistem-informasi-jadwal-tanam-dan-panen-aceh-utara",
+  "version": "1.0.0",
+  "description": "A web application for managing planting and harvesting schedules based on rainfall patterns for farmers in Aceh Utara.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "farming",
+    "scheduling",
+    "rainfall",
+    "Aceh Utara"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^3.7.0",
+    "bootstrap": "^5.1.3"
+  }
+}
